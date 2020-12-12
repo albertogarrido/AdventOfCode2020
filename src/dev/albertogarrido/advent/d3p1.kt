@@ -1,4 +1,4 @@
-package dev.albertogarrido.advent.day03.p1
+package dev.albertogarrido.advent
 
 import java.io.File
 

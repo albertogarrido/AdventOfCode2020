@@ -1,4 +1,4 @@
-package dev.albertogarrido.advent.day03.p2
+package dev.albertogarrido.advent
 
 import java.io.File
 
@@ -39,18 +39,4 @@ fun main() {
         treesMultiplied *= slopeTreeCount
     }
     println(treesMultiplied)
-}
-
-fun isTree(square: Char) = square == '#'
-
-fun listToMatrix(lines: List<String>): Array<CharArray> {
-    val maxLines = lines.size
-    val maxColumns = lines[0].length
-    val mountainMap = Array(maxLines) { CharArray(maxColumns) }
-    for (i in 0 until maxLines) {
-        for (k in 0 until maxColumns) {
-            mountainMap[i][k] = lines[i][k]
-        }
-    }
-    return mountainMap
 }
