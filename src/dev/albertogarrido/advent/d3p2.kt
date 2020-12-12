@@ -36,7 +36,6 @@ fun main() {
                     slopeTreeCount++
                 }
             }
-        println("(right: $right , down $down) we have $slopeTreeCount trees")
         treesMultiplied *= slopeTreeCount
     }
     println(treesMultiplied)
