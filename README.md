@@ -3,7 +3,7 @@
 Playing with [Advent Of Code 2020](https://adventofcode.com/2020) : 
 
 - All in kotlin
-- Probably not the most elegant or efficient, I am just interested in solving the puzzles.
+- Probably not the most elegant or efficient solutions as I am just interested in solving the puzzles.
 - I might or might not optimize them later...
 
 
